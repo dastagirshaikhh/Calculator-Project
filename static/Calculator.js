@@ -1,10 +1,3 @@
-// function Result() {
-//     var num = document.getElementById('res').value;
-//     var num2 = eval(num);
-//     document.getElementById('res').value = num2;
-// }
-
-
 function Result() {
     const inputString = document.getElementById('res').value;
     const requestData = { js_string: inputString };
